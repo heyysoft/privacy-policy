@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaz Rehberim - Gizlilik Politikasi</title>
+    <meta
+      name="description"
+      content="Namaz Rehberim uygulamasi icin gizlilik politikasi."
+    />
+    <style>
+      :root {
+        --bg: #f6f3ee;
+        --surface: #fffdf8;
+        --surface-strong: #f1ece4;
+        --text: #2f3e34;
+        --muted: #66756b;
+        --accent: #6b8f71;
+        --border: rgba(47, 62, 52, 0.12);
+        --shadow: 0 18px 50px rgba(47, 62, 52, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(107, 143, 113, 0.16), transparent 30%),
+          linear-gradient(180deg, #f9f7f2 0%, var(--bg) 100%);
+        line-height: 1.7;
+      }
+
+      .page {
+        width: min(880px, calc(100% - 32px));
+        margin: 48px auto;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, rgba(107, 143, 113, 0.14), rgba(255, 253, 248, 0.94));
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 40px 32px;
+        box-shadow: var(--shadow);
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        font-size: 12px;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(34px, 5vw, 52px);
+        line-height: 1.05;
+      }
+
+      .hero p {
+        max-width: 62ch;
+        margin: 20px 0 0;
+        color: var(--muted);
+        font-size: 18px;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .meta span {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .content {
+        margin-top: 24px;
+        padding: 32px;
+        background: rgba(255, 253, 248, 0.92);
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        box-shadow: var(--shadow);
+      }
+
+      section + section {
+        margin-top: 28px;
+        padding-top: 28px;
+        border-top: 1px solid var(--border);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 22px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      p + p,
+      ul,
+      .contact {
+        margin-top: 12px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .contact {
+        padding: 18px;
+        border-radius: 18px;
+        background: var(--surface-strong);
+        border: 1px solid var(--border);
+      }
+
+      .footer {
+        margin: 20px 0 0;
+        text-align: center;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          width: min(100% - 20px, 880px);
+          margin: 20px auto;
+        }
+
+        .hero,
+        .content {
+          padding: 24px 18px;
+          border-radius: 22px;
+        }
+
+        .hero p {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Namaz Rehberim</p>
+        <h1>Gizlilik Politikasi</h1>
+        <p>
+          Bu sayfa, Namaz Rehberim uygulamasinin hangi verilere eristigini,
+          bunlari hangi amaclarla kullandigini ve kullanicilarin hangi kontrol
+          haklarina sahip oldugunu aciklar.
+        </p>
+        <div class="meta">
+          <span>Yururluk Tarihi: 23.03.2026</span>
+          <span>Son Guncelleme: 23.03.2026</span>
+        </div>
+      </header>
+
+      <article class="content">
+        <section>
+          <h2>1. Toplanan Bilgiler</h2>
+          <p>Uygulamamiz asagidaki bilgilere erisebilir:</p>
+          <ul>
+            <li>Cihaz konumu: Kible yonunun hesaplanmasi ve bulundugunuz konuma gore namaz vakitlerinin gosterilmesi icin kullanilir.</li>
+            <li>Pusula/yon verisi: Cihazin yonunu algilayarak kible istikametini gostermek icin kullanilir.</li>
+            <li>Yaklasik yer bilgisi: Konum bilgilerinizden sehir/ulke gibi yer adi bilgisi uretilebilir ve uygulama icinde gosterilebilir.</li>
+            <li>Cihaz dili/bolge ayari: Uygulama dilini belirlemek icin kullanilabilir.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>2. Bilgileri Kullanma Amaclarimiz</h2>
+          <p>Toplanan veya erisilen bilgiler yalnizca asagidaki amaclarla kullanilir:</p>
+          <ul>
+            <li>Kible yonunu hesaplamak ve gostermek</li>
+            <li>Bulundugunuz konuma gore namaz vakitlerini hesaplamak</li>
+            <li>Konumunuza ait sehir/ulke bilgisini ekranda gostermek</li>
+            <li>Uygulama dilini cihaz ayarlariniza gore uyarlamak</li>
+            <li>Uygulamanin temel islevlerini yerine getirmek</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>3. Verilerin Islenme Sekli</h2>
+          <p>
+            Uygulamadaki kible yonu ve namaz vakti hesaplamalari buyuk olcude
+            cihaz uzerinde yapilir. Uygulama kapsaminda kullanici hesabi
+            olusturma, sunucuya manuel veri gonderme, reklam gosterimi veya
+            davranissal analiz amacli izleme bulunmamaktadir.
+          </p>
+          <p>
+            Bununla birlikte, konumdan sehir/ulke adi uretimi gibi bazi isletim
+            sistemi tabanli konum servisleri, cihazinizin platform saglayicisi
+            tarafindan islenebilir. Bu tur islemler uzerinde Apple, Google veya
+            cihaz ureticisinin kendi gizlilik kosullari gecerli olabilir.
+          </p>
+        </section>
+
+        <section>
+          <h2>4. Konum Izni</h2>
+          <p>
+            Uygulama, yalnizca siz izin verdiginiz takdirde cihazin konumuna
+            erisir. Konum izni verilmediginde uygulamanin bazi ozellikleri,
+            ozellikle kible yonu ve konuma gore namaz vakitleri, duzgun
+            calismayabilir.
+          </p>
+          <p>Konum iznini dilediginiz zaman cihazin ayarlar ekranindan kaldirabilirsiniz.</p>
+        </section>
+
+        <section>
+          <h2>5. Pusula ve Sensor Verileri</h2>
+          <p>
+            Uygulama, cihaz pusulasi ve ilgili sensor verilerini yalnizca kible
+            yonunu gostermek amaciyla kullanir. Bu veriler kullanici profili
+            olusturma veya reklam amacli kullanilmaz.
+          </p>
+        </section>
+
+        <section>
+          <h2>6. Veri Paylasimi</h2>
+          <p>
+            Uygulama, kisisel verilerinizi Heyy Software sunucularinda toplamaz,
+            satmaz veya ticari amacla ucuncu taraflarla paylasmaz.
+          </p>
+          <p>Ancak asagidaki durumlar haric tutulur:</p>
+          <ul>
+            <li>Yasal yukumluluklerin yerine getirilmesi gerektiginde</li>
+            <li>Cihaz isletim sistemi veya platform servisleri tarafindan teknik olarak islenen konum tabanli servisler kapsaminda</li>
+            <li>Uygulama magazalari veya platform saglayicilarinin kendi teknik altyapilari kapsaminda</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>7. Veri Saklama</h2>
+          <p>
+            Uygulama, bu surum itibariyla kullaniciya ait kisisel verileri
+            merkezi bir sunucuda saklamaz. Konum ve sensor verileri uygulama
+            islevlerinin calismasi sirasinda gecici olarak kullanilabilir.
+          </p>
+        </section>
+
+        <section>
+          <h2>8. Cocuklarin Gizliligi</h2>
+          <p>
+            Uygulama genel kullanima yoneliktir. Gelistirici, bilerek
+            cocuklardan ayri bir hesap bilgisi veya kimlik verisi toplamaz.
+          </p>
+        </section>
+
+        <section>
+          <h2>9. Guvenlik</h2>
+          <p>
+            Kullanici verilerinin korunmasi icin makul teknik ve idari onlemler
+            alinmaya calisilir. Ancak internet, mobil cihazlar ve platform
+            servisleri uzerinden yapilan hicbir veri isleme yontemi mutlak
+            guvenlik garantisi vermez.
+          </p>
+        </section>
+
+        <section>
+          <h2>10. Ucuncu Taraf Hizmetler</h2>
+          <p>
+            Uygulama, cihazin isletim sistemi ve uygulamanin calistigi platform
+            tarafindan saglanan servislerden yararlanabilir. Bunlar arasinda
+            konum servisleri, sensor servisleri ve uygulama magazasi
+            altyapilari yer alabilir. Bu hizmetlerin veri isleme faaliyetleri
+            ilgili ucuncu taraflarin kendi gizlilik politikalarina tabidir.
+          </p>
+        </section>
+
+        <section>
+          <h2>11. Haklariniz</h2>
+          <p>Yururlukteki mevzuata bagli olarak su haklara sahip olabilirsiniz:</p>
+          <ul>
+            <li>Hangi verilerin islendigini ogrenme</li>
+            <li>Izin verdiginiz erisimleri geri cekme</li>
+            <li>Uygulamayi kullanmayi durdurma</li>
+            <li>Bizimle iletisime gecerek bilgi talep etme</li>
+          </ul>
+          <p>Konum ve sensor izinlerinizi dogrudan cihaz ayarlarinizdan yonetebilirsiniz.</p>
+        </section>
+
+        <section>
+          <h2>12. Politika Degisiklikleri</h2>
+          <p>
+            Bu Gizlilik Politikasi zaman zaman guncellenebilir. Guncel surum
+            uygulama icinde veya ilgili yayin kanalinda paylasilir.
+            Degisikliklerden sonra uygulamayi kullanmaya devam etmeniz,
+            guncellenmis politikayi kabul ettiginiz anlamina gelir.
+          </p>
+        </section>
+
+        <section>
+          <h2>13. Iletisim</h2>
+          <p>Bu Gizlilik Politikasi hakkinda sorulariniz icin bizimle iletisime gecebilirsiniz:</p>
+          <div class="contact">
+            <p>Heyy Software</p>
+            <p>support@heyysoft.com</p>
+          </div>
+        </section>
+      </article>
+
+      <p class="footer">Namaz Rehberim gizlilik politikasi statik sayfasi.</p>
+    </main>
+  </body>
+</html>

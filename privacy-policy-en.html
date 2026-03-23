@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaz Rehberim - Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy Policy for the Namaz Rehberim application."
+    />
+    <style>
+      :root {
+        --bg: #f6f3ee;
+        --surface: #fffdf8;
+        --surface-strong: #f1ece4;
+        --text: #2f3e34;
+        --muted: #66756b;
+        --accent: #6b8f71;
+        --border: rgba(47, 62, 52, 0.12);
+        --shadow: 0 18px 50px rgba(47, 62, 52, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(107, 143, 113, 0.16), transparent 30%),
+          linear-gradient(180deg, #f9f7f2 0%, var(--bg) 100%);
+        line-height: 1.7;
+      }
+
+      .page {
+        width: min(880px, calc(100% - 32px));
+        margin: 48px auto;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, rgba(107, 143, 113, 0.14), rgba(255, 253, 248, 0.94));
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 40px 32px;
+        box-shadow: var(--shadow);
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        font-size: 12px;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(34px, 5vw, 52px);
+        line-height: 1.05;
+      }
+
+      .hero p {
+        max-width: 62ch;
+        margin: 20px 0 0;
+        color: var(--muted);
+        font-size: 18px;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .meta span {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .content {
+        margin-top: 24px;
+        padding: 32px;
+        background: rgba(255, 253, 248, 0.92);
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        box-shadow: var(--shadow);
+      }
+
+      section + section {
+        margin-top: 28px;
+        padding-top: 28px;
+        border-top: 1px solid var(--border);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 22px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      p + p,
+      ul,
+      .contact {
+        margin-top: 12px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .contact {
+        padding: 18px;
+        border-radius: 18px;
+        background: var(--surface-strong);
+        border: 1px solid var(--border);
+      }
+
+      .footer {
+        margin: 20px 0 0;
+        text-align: center;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          width: min(100% - 20px, 880px);
+          margin: 20px auto;
+        }
+
+        .hero,
+        .content {
+          padding: 24px 18px;
+          border-radius: 22px;
+        }
+
+        .hero p {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Namaz Rehberim</p>
+        <h1>Privacy Policy</h1>
+        <p>
+          This page explains what data the Namaz Rehberim application may
+          access, how that data is used, and what controls users have over
+          these permissions and processing activities.
+        </p>
+        <div class="meta">
+          <span>Effective Date: 23.03.2026</span>
+          <span>Last Updated: 23.03.2026</span>
+        </div>
+      </header>
+
+      <article class="content">
+        <section>
+          <h2>1. Information We Access</h2>
+          <p>Our application may access the following information:</p>
+          <ul>
+            <li>Device location: Used to calculate the Qibla direction and display prayer times based on your current location.</li>
+            <li>Compass/direction data: Used to determine the direction of the device and show the Qibla orientation.</li>
+            <li>Approximate place information: City/country style place names may be derived from your location data and displayed inside the app.</li>
+            <li>Device language/region settings: May be used to determine the application language.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>2. How We Use Information</h2>
+          <p>Any information accessed by the application is used only for the following purposes:</p>
+          <ul>
+            <li>To calculate and display the Qibla direction</li>
+            <li>To calculate prayer times based on your current location</li>
+            <li>To display city/country style place information related to your location</li>
+            <li>To adapt the application language to your device settings</li>
+            <li>To provide the core functionality of the application</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>3. How Data Is Processed</h2>
+          <p>
+            Qibla direction and prayer time calculations are performed
+            primarily on the device. The current version of the application
+            does not include user account creation, manual transmission of data
+            to a backend server, advertising, or behavioral analytics tracking.
+          </p>
+          <p>
+            However, some operating system level location services, such as
+            deriving city/country names from location coordinates, may be
+            processed by your device platform provider. In such cases, Apple,
+            Google, or the device manufacturer's own privacy terms may apply.
+          </p>
+        </section>
+
+        <section>
+          <h2>4. Location Permission</h2>
+          <p>
+            The application accesses your device location only if you grant
+            permission. If location permission is not granted, certain features
+            of the application, especially Qibla direction and location-based
+            prayer times, may not function properly.
+          </p>
+          <p>You may revoke location permission at any time from your device settings.</p>
+        </section>
+
+        <section>
+          <h2>5. Compass and Sensor Data</h2>
+          <p>
+            The application uses compass and related sensor data only to
+            display the Qibla direction. This data is not used to build user
+            profiles or for advertising purposes.
+          </p>
+        </section>
+
+        <section>
+          <h2>6. Data Sharing</h2>
+          <p>
+            The application does not collect, sell, or commercially share your
+            personal data on Heyy Software servers.
+          </p>
+          <p>The following situations are exceptions:</p>
+          <ul>
+            <li>When required to comply with legal obligations</li>
+            <li>When technical processing occurs through device operating system or platform-level location services</li>
+            <li>When processing occurs within app store or platform provider infrastructure</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>7. Data Retention</h2>
+          <p>
+            As of this version, the application does not store users' personal
+            data on a central server. Location and sensor data may be used
+            temporarily while the application features are running.
+          </p>
+        </section>
+
+        <section>
+          <h2>8. Children's Privacy</h2>
+          <p>
+            The application is intended for general audiences. The developer
+            does not knowingly collect separate account information or identity
+            data from children.
+          </p>
+        </section>
+
+        <section>
+          <h2>9. Security</h2>
+          <p>
+            Reasonable technical and administrative measures are taken to help
+            protect user data. However, no method of data processing over the
+            internet, mobile devices, or platform services can be guaranteed to
+            be completely secure.
+          </p>
+        </section>
+
+        <section>
+          <h2>10. Third-Party Services</h2>
+          <p>
+            The application may rely on services provided by the device
+            operating system and the platform on which the application runs.
+            These may include location services, sensor services, and app store
+            infrastructure. The data processing activities of such services are
+            subject to the privacy policies of the relevant third parties.
+          </p>
+        </section>
+
+        <section>
+          <h2>11. Your Rights</h2>
+          <p>Depending on applicable law, you may have the following rights:</p>
+          <ul>
+            <li>To learn what data is being processed</li>
+            <li>To withdraw permissions you previously granted</li>
+            <li>To stop using the application</li>
+            <li>To contact us and request information</li>
+          </ul>
+          <p>You may manage location and sensor permissions directly from your device settings.</p>
+        </section>
+
+        <section>
+          <h2>12. Changes to This Policy</h2>
+          <p>
+            This Privacy Policy may be updated from time to time. The current
+            version may be shared within the application or through the
+            relevant distribution channel. Continued use of the application
+            after any update means you accept the revised policy.
+          </p>
+        </section>
+
+        <section>
+          <h2>13. Contact</h2>
+          <p>If you have any questions about this Privacy Policy, you may contact us:</p>
+          <div class="contact">
+            <p>Heyy Software</p>
+            <p>support@heyysoft.com</p>
+          </div>
+        </section>
+
+        <p class="footer">Namaz Rehberim privacy policy static page.</p>
+      </article>
+    </main>
+  </body>
+</html>
